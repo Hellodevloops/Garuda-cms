@@ -1,6 +1,6 @@
 # Garuda CMS
 
-Welcome to Garuda CMS - a powerful content management system designed for [specific purpose, target audience, or key features].
+Welcome to Garuda CMS - a powerful content management system built over Laravel and Orchid, leveraging Bootstrap for the frontend.
 
 ![Garuda CMS Logo](link_to_your_logo.png)
 
@@ -16,23 +16,24 @@ Welcome to Garuda CMS - a powerful content management system designed for [speci
 
 ## Introduction
 
-Garuda CMS is a [brief description of the CMS]. It offers [key benefits or advantages] and is tailored for [specific use cases or industries].
+Garuda CMS is a content management system that extends Laravel and Orchid functionalities, offering a robust solution for [specific purpose, target audience, or key features]. It provides [key benefits or advantages] and is tailored for [specific use cases or industries].
 
 ## Features
 
-- **Powerful Content Management:** Manage your content efficiently with intuitive tools and a user-friendly interface.
-- **Customizable Templates:** Create visually appealing and unique websites with customizable templates and themes.
-- **SEO-Friendly:** Implement SEO best practices easily to improve your website's visibility on search engines.
-- **Responsive Design:** Ensure your website looks great on various devices with responsive design capabilities.
-- **Robust Security:** Built-in security measures to protect your website from vulnerabilities.
+- **Laravel and Orchid Integration:** Built over Laravel and Orchid, combining the strengths of both frameworks.
+- **Bootstrap Frontend:** Utilizes Bootstrap to ensure a responsive and visually appealing user interface.
+- **Powerful Content Management:** Manage content effectively with Orchid's intuitive tools and Laravel's capabilities.
+- **Customizable Templates:** Create unique websites with customizable templates and themes.
+- **SEO-Friendly:** Implement SEO best practices easily to improve website visibility on search engines.
+- **Robust Security:** Built-in security measures to protect websites from vulnerabilities.
 
 ## Getting Started
 
-To get started with Garuda CMS, follow these steps:
+To start using Garuda CMS:
 
 1. **Installation:** [Provide installation instructions here]
 2. **Configuration:** [Explain configuration steps or initial setup]
-3. **Usage:** [Explain how to create content, manage settings, etc.]
+3. **Usage:** [Explain content creation, settings management, etc.]
 
 ## Documentation
 
@@ -40,7 +41,7 @@ For detailed instructions and documentation, visit the [Garuda CMS Documentation
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to Garuda CMS, follow these steps:
+We encourage contributions! To contribute to Garuda CMS:
 
 1. Fork the repository.
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
