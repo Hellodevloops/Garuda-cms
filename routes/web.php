@@ -20,6 +20,26 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/webdev', function () {
+    return view('webdev');
+});
+Route::get('/product', function () {
+    return view('product');
+});
+Route::get('/iot', function () {
+    return view('iot');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/career', function () {
+    return view('career');
+});
+Route::get('/healthcare', function () {
+    return view('healthcare');
+});
+
+
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
 
