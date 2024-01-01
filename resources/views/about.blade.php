@@ -3,10 +3,10 @@
 
 <section class="bg-white py-8 dark:bg-gray-900">
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <img class="w-full dark:hidden" src="./assets/img/about.png" alt="dashboard image">
-        <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
+        <img class="w-full dark:hidden animate-pulse" src="./assets/img/about.png" alt="dashboard image">
+        <img class="w-full hidden dark:block  " src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
         <div class="mt-4 md:mt-0">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's create more tools and ideas that brings us together.</h2>
+            <h2 class=" mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's create more tools and ideas that brings us together.</h2>
             <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
             <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                 Get started
@@ -173,7 +173,7 @@
                 </ul>
                 <p class="mb-8 font-dark lg:text-xl">Building dynamic and responsive web experiences that not only meet but exceed modern standards.Empowering the future with interconnected devices and smart solutions.</p>
             </div>
-            <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./assets/img/story2new.png" alt="dashboard feature image">
+            <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex  animate-pulse" src="./assets/img/story2new.png" alt="dashboard feature image">
         </div>
         <!-- Row -->
     </div>
@@ -195,29 +195,17 @@
 
         <div class="space-y-8 lg:grid lg:grid-cols-2     sm:gap-6 xl:gap-10 lg:space-y-0">
             <!-- Pricing Card -->
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h2 class="mb-4 text-2xl text-pink-500">Our <span class="text-purple-500"> Mission</span></h2>
-                <p class="font-dark text-gray-500 sm:text-lg dark:text-gray-400">At DevLoops International, our mission is to be at the forefront of transformative software development, pioneering innovative solutions that empower businesses to thrive in the digital era. We are committed to delivering excellence in every line of code we write, ensuring that our clients receive cutting-edge products tailored to their unique needs.</p>
-                <!-- <div class="flex items-baseline justify-center my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$29</span>
-                    <span class="text-gray-500 dark:text-gray-400">/month</span>
-                </div> -->
-                <!-- List -->
-              
-                <!-- <a href="#" class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get started</a> -->
-            </div>
+            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-gradient-to-r from-gray-100 via-gray-200 to-pink-100 hover:from-gray-200 hover:via-pink-200 hover:to-pink-300 border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white transition-all duration-300">
+    <h2 class="mb-4 text-2xl text-pink-500">Our <span class="text-purple-500">Mission</span></h2>
+    <p class="font-dark text-gray-500 sm:text-lg dark:text-gray-400">At DevLoops International, our mission is to be at the forefront of transformative software development, pioneering innovative solutions that empower businesses to thrive in the digital era. We are committed to delivering excellence in every line of code we write, ensuring that our clients receive cutting-edge products tailored to their unique needs.</p>
+</div>
+
             <!-- Pricing Card -->
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h1 class="mb-4 text-2xl text-pink-500">Our <span class="text-purple-500"> Vision</span></h1>
-                <p class="font-dark text-gray-500 sm:text-lg dark:text-gray-400">Our vision is to be a global p1er in software development, recognized for our unwavering commitment to quality, innovation, and client satisfaction. We aim to push the boundaries of what is possible in the digital landscape, creating solutions that not only meet current needs but also anticipate future challenges.</p>
-                <!-- <div class="flex items-baseline justify-center my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$29</span>
-                    <span class="text-gray-500 dark:text-gray-400">/month</span>
-                </div> -->
-                <!-- List -->
-              
-                <!-- <a href="#" class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get started</a> -->
-            </div>
+            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-gradient-to-r from-gray-100 via-gray-200 to-pink-100 hover:from-gray-200 hover:via-pink-200 hover:to-pink-300 border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white transition-all duration-300">
+    <h1 class="mb-4 text-2xl text-pink-500">Our <span class="text-purple-500">Vision</span></h1>
+    <p class="font-dark text-gray-500 sm:text-lg dark:text-gray-400">Our vision is to be a global pioneer in software development, recognized for our unwavering commitment to quality, innovation, and client satisfaction. We aim to push the boundaries of what is possible in the digital landscape, creating solutions that not only meet current needs but also anticipate future challenges.</p>
+</div>
+
             <!-- Pricing Card -->
             <!-- <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                 <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
@@ -240,7 +228,7 @@
                 <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
             </svg> 
             <blockquote>
-                <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"Landwind is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+                <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"We've been with DevLoops from the beginning. Their consistent delivery of top-notch technology solutions has been instrumental in our growth and competitiveness."</p>
             </blockquote>
             <figcaption class="flex items-center justify-center mt-6 space-x-3">
                 <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
